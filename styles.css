@@ -49,12 +49,7 @@ div#tswsideproper, div#tswothersideproper {
 div#tswheader {
 	color: #000 ;
 	background-color: #fff ;
-/*
-	tswtabs.css		1.2.3
-	Please use the CSS Menu Button Wizard at
-		https://www.thesitewizard.com/wizards/css-menu-buttons.shtml
-	to generate your own customized menu buttons.
-*/
+}
 
 #tswcsstabs ul {
 	margin: 0 ;
