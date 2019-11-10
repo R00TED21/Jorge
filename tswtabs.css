@@ -1,33 +1,35 @@
 /*
-	tswtabs.css		1.2.3
-	Please use the CSS Menu Button Wizard at
+	tswnavbar.css	1.2.3
+	Please use the Navigation Menu Wizard at
 		https://www.thesitewizard.com/wizards/css-menu-buttons.shtml
 	to generate your own customized menu buttons.
 */
 
-#tswcsstabs ul {
+#tswcssbuttons {
+	width: 180px ;
+	max-width: 100% ;
+	text-align: center ;
+}
+#tswcssbuttons ul {
 	margin: 0 ;
 	padding: 0 ;
 	list-style: none ;
-	display: inline ;
 }
-#tswcsstabs ul li {
+#tswcssbuttons li {
 	margin: 0 ;
 	padding: 0 ;
-	display: inline ;
-	text-align: center ;
-	float: left ;
+	display: block ;
+	list-style: none ;
 	font-family: Arial, Helvetica, sans-serif ;
 }
-#tswcsstabs li a {
+#tswcssbuttons li a {
 	color: #ffffff ;
 	background-color: #00cc00 ;
 	border: 1px outset #008f00 ;
-	padding: 8px ;
 	text-decoration: none ;
-	display: inline ;
+	display: block ;
 }
-#tswcsstabs li a:hover {
+#tswcssbuttons li a:hover {
 	color: #000000 ;
 	background-color: #bfffbf ;
 }
