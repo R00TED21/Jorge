@@ -1,28 +1,26 @@
-#tswcssbuttons {
-	width: 180px ;
-	max-width: 100% ;
+#tswcsstabs ul {
+	margin: 0 ;
+	padding: 0 ;
+	list-style: none ;
+	display: inline ;
+}
+#tswcsstabs ul li {
+	margin: 0 ;
+	padding: 0 ;
+	display: inline ;
 	text-align: center ;
-}
-#tswcssbuttons ul {
-	margin: 0 ;
-	padding: 0 ;
-	list-style: none ;
-}
-#tswcssbuttons li {
-	margin: 0 ;
-	padding: 0 ;
-	display: block ;
-	list-style: none ;
+	float: left ;
 	font-family: Arial, Helvetica, sans-serif ;
 }
-#tswcssbuttons li a {
+#tswcsstabs li a {
 	color: #ffffff ;
 	background-color: #00cc00 ;
 	border: 1px outset #008f00 ;
+	padding: 8px ;
 	text-decoration: none ;
-	display: block ;
+	display: inline ;
 }
-#tswcssbuttons li a:hover {
+#tswcsstabs li a:hover {
 	color: #000000 ;
 	background-color: #bfffbf ;
 }
