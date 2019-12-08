@@ -1,8 +1,9 @@
 body {
 	font-family: Arial, Helvetica, sans-serif ;
 	background-image: url("https://themegoods-cdn-pzbycso8wng.stackpathdns.com/grandtour/demo/wp-content/uploads/2016/12/Tokyo_Dollarphotoclub_72848283-copy.jpg")
+	background-size: cover;		
 }
-img {
+/*img {
 	max-width: auto ;
 	width: auto ;
 	height: auto ;
@@ -16,6 +17,6 @@ div#tswcontproper {
 	padding-right: 5px ;
 }
 div#tswcontainer {
-	background-size:cover;
 	
 }
+*/
